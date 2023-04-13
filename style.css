@@ -1,32 +1,10 @@
-#present>h2{
-    display: flex;
-
-}
-
-.pre{
-    margin-top: 100px;
-    justify-content: center;
-    text-align: center;
-}
-
-.pre2{
-    display: flex;
-    flex-direction: column;
-    padding-inline: 40%;
-}
-
-#profil{
-    width: 150px;
-    border-radius: 50px;
-}
-
 body{
     padding: 0%;
     margin: 0%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(340deg,rgb(237, 198, 177) 3%,rgb(183, 183, 183) 38%, rgb(124, 150, 171) 63%, rgb(191, 204, 181) 98% );
-    animation: gradient 20s ease infinite;
+    background: linear-gradient(340deg,rgb(243, 224, 181) 3%,rgb(255, 174, 109) 38%, rgb(254, 205, 112) 63%, rgb(227, 199, 112)98% );
+    animation: gradient 10s ease infinite;
     background-size: 400% 400%;
 }
 
@@ -42,29 +20,44 @@ body{
     }
 }
 
-progress{
-    
-    writing-mode: bt-lr;
-    transform: rotate(270deg);
-    height: 20px;
-    width: 100px;
-    }
-
-
-#competence{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+#fonction>div>img{
+    width: 3%;
 }
 
-.comp{
+#fonction{
+    padding: 1%;
+    text-align: right;
+}
+
+#ruben{
+    align-items: center;
+}
+
+h1{
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 200%;
+    padding-inline: 20%;
+    color: rgb(255, 255, 255);
+}
+
+#present{
     display: flex;
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
 }
 
-h3{
-    margin: 50px;
+#profil{
+    width: 8%;
+    border-radius: 50px;
 }
 
 #contact {
@@ -90,23 +83,19 @@ h3{
 }
 
 .cont{
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .cont:hover{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.308);
 }
 
-
-
-
 #projects{
     display: flex;
     justify-content: center;
 }
-#projects>a{
-    text-decoration: none;
-    color: black;
+#projects>a>button{
+    color: rgb(255, 254, 254);
 }
 #projects>a>button{
     width: 300px;
@@ -118,12 +107,6 @@ h3{
 
 #projects>a>button:hover{
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.341);
-}
-
-#contact{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
 }
 
 #proj{
@@ -142,6 +125,11 @@ h3{
     margin-top: 200px;
 }
 
+#contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 .img2{
     width: 300px;
@@ -162,8 +150,6 @@ h3{
     border: 2px solid black;
     border-radius: 10px;
 }
-
-
 
 .top{
     text-align: center;
