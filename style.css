@@ -1,0 +1,137 @@
+/* :root {
+    --cores-dancantes: rgba(144, 85, 59, 0.645), rgba(252, 100, 5, 0.713), rgb(88, 86, 217),
+    rgb(255, 45, 83);
+} */
+
+#present>h2{
+    display: flex;
+
+}
+
+.pre{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pre2{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 40%;
+}
+
+#profil{
+    width: 150px;
+    border-radius: 50px;
+}
+
+body{
+    background: linear-gradient(to right, var(--cores-dancantes));
+}
+
+progress{
+    
+    writing-mode: bt-lr;
+    transform: rotate(270deg);
+    height: 20px;
+    width: 100px;
+    }
+
+
+#competence{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3{
+    margin: 50px;
+}
+
+#contact {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#contact > a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transform: none;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .10s all;
+}
+#projects{
+    display: flex;
+    justify-content: center;
+}
+#projects>button>a{
+    text-decoration: none;
+    color: black;
+}
+#projects>button{
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#proj{
+    margin-top: 400px;
+}
+
+#proj>h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#project{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    width: 600px;
+}
+
+
+.img2{
+    width: 300px;
+    height: 280px;
+}
+
+.port{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid black;
+    width: 320px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img3{
+    border: 2px solid black;
+    border-radius: 10px;
+}
